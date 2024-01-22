@@ -9,3 +9,6 @@ publish:
 
 say:
 	echo 'Hello!!!'
+
+lint:
+	npx eslint .
