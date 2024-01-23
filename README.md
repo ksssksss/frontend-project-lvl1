@@ -8,4 +8,13 @@ make install
 npm link
 ```
 ## Even Numbers Game
+```bash
+brain-even
+```
 [![asciicast](https://asciinema.org/a/Ywm4yEy6xoCKzrdY2ZOc8bGXx.svg)](https://asciinema.org/a/Ywm4yEy6xoCKzrdY2ZOc8bGXx)
+
+## Calculator Game
+```bash
+brain-calc
+```
+[![asciicast](https://asciinema.org/a/69b2AefypcJadRVst1uMJQlP2.svg)](https://asciinema.org/a/69b2AefypcJadRVst1uMJQlP2)
