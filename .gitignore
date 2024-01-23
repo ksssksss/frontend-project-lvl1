@@ -1,1 +1,4 @@
 /node_modeules/
+*.log
+coverage
+.DS_Store
