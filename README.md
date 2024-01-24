@@ -24,3 +24,9 @@ brain-calc
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH.svg)](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH)
+
+## Greatest Common Divisor Game
+```bash
+brain-progression
+```
+[![asciicast](https://asciinema.org/a/QgdGxKzxaGy4zjpCmArMSn81d.svg)](https://asciinema.org/a/QgdGxKzxaGy4zjpCmArMSn81d)
