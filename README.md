@@ -7,7 +7,7 @@
 make install
 npm link
 ```
-## Even Numbers Game
+## Even Number Game
 ```bash
 brain-even
 ```
@@ -25,8 +25,14 @@ brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH.svg)](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH)
 
-## Greatest Common Divisor Game
+## Arithmetic Progression Game
 ```bash
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/QgdGxKzxaGy4zjpCmArMSn81d.svg)](https://asciinema.org/a/QgdGxKzxaGy4zjpCmArMSn81d)
+
+## Prime Number Game
+```bash
+brain-progression
+```
+[![asciicast](https://asciinema.org/a/wfPCSmIzX7FTczFYRlbuvjl6s.svg)](https://asciinema.org/a/wfPCSmIzX7FTczFYRlbuvjl6s)
