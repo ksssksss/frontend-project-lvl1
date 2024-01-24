@@ -18,3 +18,9 @@ brain-even
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/69b2AefypcJadRVst1uMJQlP2.svg)](https://asciinema.org/a/69b2AefypcJadRVst1uMJQlP2)
+
+## Greatest Common Divisor Game
+```bash
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH.svg)](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH)
