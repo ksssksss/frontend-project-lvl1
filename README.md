@@ -11,19 +11,19 @@ npm link
 ```bash
 brain-even
 ```
-[![asciicast](https://asciinema.org/a/Ywm4yEy6xoCKzrdY2ZOc8bGXx.svg)](https://asciinema.org/a/Ywm4yEy6xoCKzrdY2ZOc8bGXx)
+[![asciicast](https://asciinema.org/a/f0ry1mlSKInEC8ftkXxOMP4SW.svg)](https://asciinema.org/a/f0ry1mlSKInEC8ftkXxOMP4SW)
 
 ## Calculator Game
 ```bash
 brain-calc
 ```
-[![asciicast](https://asciinema.org/a/69b2AefypcJadRVst1uMJQlP2.svg)](https://asciinema.org/a/69b2AefypcJadRVst1uMJQlP2)
+[![asciicast](https://asciinema.org/a/AnnfgGyKeaCS2eFREAIC4ymL6.svg)](https://asciinema.org/a/AnnfgGyKeaCS2eFREAIC4ymL6)
 
 ## Greatest Common Divisor Game
 ```bash
 brain-gcd
 ```
-[![asciicast](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH.svg)](https://asciinema.org/a/ZLLBwKr2BJYn4NNKViuBfBhRH)
+[![asciicast](https://asciinema.org/a/229KEuB5Enoxy1jVPCLrwcVM8.svg)](https://asciinema.org/a/229KEuB5Enoxy1jVPCLrwcVM8)
 
 ## Arithmetic Progression Game
 ```bash
@@ -33,6 +33,6 @@ brain-progression
 
 ## Prime Number Game
 ```bash
-brain-progression
+brain-prime
 ```
 [![asciicast](https://asciinema.org/a/wfPCSmIzX7FTczFYRlbuvjl6s.svg)](https://asciinema.org/a/wfPCSmIzX7FTczFYRlbuvjl6s)
