@@ -2,6 +2,14 @@
 [![Actions Status](https://github.com/ksssksss/frontend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ksssksss/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/eca04133c3be89d4af1b/maintainability)](https://codeclimate.com/github/ksssksss/frontend-project-lvl1/maintainability)
 
+Five console games written in JavaScript. When starting each game, you need to answer questions correctly three times in a row.
+
+* **Even Number Game**: the game displays a number, you need to answer whether this number is even or not.
+* **Calculator Game**: the game displays an example, you need to send the result.
+* **Greatest Common Divisor Game**: the game displays two numbers, you need to send the greatest common divisor.
+* **Arithmetic Progression Game**: the game displays an arithmetic progression with a missing number, you need to send the missing number.
+* **Prime Number Game**: the game displays a number, you need to answer whether it is a prime number or not.
+
 ## Setup
 ```bash
 make install
