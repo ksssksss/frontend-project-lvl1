@@ -1,38 +1,33 @@
-import { generateRandomInteger } from '../utils.js';
+import generateRandomNumber from '../generateRandomNumber.js';
 import game from '../index.js';
 
-const MIN_NUMBER = 0;
-const MAX_NUMBER = 10;
-
 const operators = ['+', '-', '*'];
-const gameTask = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 
-const getGameData = () => {
-  const number1 = generateRandomInteger(MIN_NUMBER, MAX_NUMBER);
-  const number2 = generateRandomInteger(MIN_NUMBER, MAX_NUMBER);
-  const operator = operators[generateRandomInteger(0, operators.length - 1)];
-
-  const question = `${number1} ${operator} ${number2}`;
-
-  let correctAnswer = 0;
-
+const getCalculated = (a, b, operator) => {
   switch (operator) {
     case '+':
-      correctAnswer = number1 + number2;
-      break;
+      return a + b;
     case '-':
-      correctAnswer = number1 - number2;
-      break;
+      return a - b;
     case '*':
-      correctAnswer = number1 * number2;
-      break;
+      return a * b;
     default:
-      break;
+      return null;
   }
-
-  return [question, correctAnswer.toString()];
 };
 
-const startCalcGame = () => game(gameTask, getGameData);
+const generateRound = () => {
+  const number1 = generateRandomNumber(0, 10);
+  const number2 = generateRandomNumber(0, 10);
+  const operator = operators[generateRandomNumber(0, operators.length - 1)];
+
+  const question = `${number1} ${operator} ${number2}`;
+  const answer = getCalculated(number1, number2, operator);
+
+  return [question, answer.toString()];
+};
+
+const startCalcGame = () => game(description, generateRound);
 
 export default startCalcGame;

@@ -2,8 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/ksssksss/frontend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ksssksss/frontend-project-lvl1/actions)",
-  "main": "index.js",
+  "description": "Brain Games: five console games written in JavaScript",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

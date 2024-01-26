@@ -1,14 +1,9 @@
 import game from '../index.js';
-import { generateRandomInteger } from '../utils.js';
+import generateRandomNumber from '../generateRandomNumber.js';
 
-const MIN_DELTA = 2;
-const MAX_DELTA = 10;
-const MIN_NUMBER_COUNT = 5;
-const MAX_NUMBER_COUNT = 10;
+const description = 'What number is missing in the progression?';
 
-const gameTask = 'What number is missing in the progression?';
-
-const getProgressionNumbers = (firstNumber, delta, numberCount) => {
+const getProgression = (firstNumber, delta, numberCount) => {
   const progressionNumbers = [];
   progressionNumbers.push(firstNumber);
   for (let i = 1; i < numberCount; i += 1) {
@@ -19,19 +14,19 @@ const getProgressionNumbers = (firstNumber, delta, numberCount) => {
   return progressionNumbers;
 };
 
-const getGameData = () => {
-  const firstNumber = generateRandomInteger();
-  const delta = generateRandomInteger(MIN_DELTA, MAX_DELTA);
-  const numberCount = generateRandomInteger(MIN_NUMBER_COUNT, MAX_NUMBER_COUNT);
-  const progressionNumbers = getProgressionNumbers(firstNumber, delta, numberCount);
-  const hiddenIndex = generateRandomInteger(0, numberCount - 1);
+const generateRound = () => {
+  const firstNumber = generateRandomNumber(1, 100);
+  const delta = generateRandomNumber(2, 10);
+  const numberCount = generateRandomNumber(5, 10);
+  const progressionNumbers = getProgression(firstNumber, delta, numberCount);
+  const hiddenIndex = generateRandomNumber(0, numberCount - 1);
 
-  const correctAnswer = progressionNumbers.splice(hiddenIndex, 1, '..');
+  const answer = progressionNumbers.splice(hiddenIndex, 1, '..');
   const question = progressionNumbers.join(' ');
 
-  return [question, correctAnswer.toString()];
+  return [question, answer.toString()];
 };
 
-const startProgressionGame = () => game(gameTask, getGameData);
+const startProgressionGame = () => game(description, generateRound);
 
 export default startProgressionGame;
