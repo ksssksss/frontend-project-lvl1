@@ -4,7 +4,7 @@ import game from '../index.js';
 const operators = ['+', '-', '*'];
 const description = 'What is the result of the expression?';
 
-const getCalculated = (a, b, operator) => {
+const calculate = (a, b, operator) => {
   switch (operator) {
     case '+':
       return a + b;
@@ -13,7 +13,7 @@ const getCalculated = (a, b, operator) => {
     case '*':
       return a * b;
     default:
-      return null;
+      throw new Error(`Unknown operator: '${operator}'!`);
   }
 };
 
@@ -23,7 +23,7 @@ const generateRound = () => {
   const operator = operators[generateRandomNumber(0, operators.length - 1)];
 
   const question = `${number1} ${operator} ${number2}`;
-  const answer = getCalculated(number1, number2, operator);
+  const answer = calculate(number1, number2, operator);
 
   return [question, answer.toString()];
 };
